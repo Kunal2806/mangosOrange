@@ -22,7 +22,7 @@ function loadRoute (){
             ]
         }
 
-        script[hash].forEach(src => {
+        script[hash].forEach((src) => {
             const script = document.createElement('script');
             script.src = src;
             document.body.appendChild(script);
